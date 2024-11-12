@@ -4,10 +4,107 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+	<style>
+		.container{
+			width:100vw;
+			height:100vh;
+			background-color:lightgray;
+			text-align:center;
+			align-items:center;
+			align-content:center;
+			
+		}
+		h2{
+			color:#3b99e0;
+		}
+		.container p{
+			color:darkgray;
+		}
+		.row{
+			width:80vw;
+			height:70vh;
+			background-color:white;
+			justify-self:space-around;
+			margin:10px;
+			display:flex;
+		}
+		.img img{
+			width:100px;
+			height:100px;
+		}
+	</style>
+<div class="container">
+	<h2>Shopping Cart</h2>
+	<p>The customer is very important, the customer will <br>
+	be followed by the customer, Now, as an urn i have <br>
+	no right to be in possession of property.</p>
+	<div class="row d-flex flex-row-sm-row">
+		<!-- ------------Product---------------------- -->
+		<div class="product">
+			<div class="product_row d-flex flex-sm-row d p-2" >
+				<div class="img-fluid">
+					<img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRKj8NxFZGTq2Duw3kub7bAM6b-7zsd_1oF5GkGsknP4ex-A8Dk" width="150px" alt="image loading..">
+				</div>
+				<div class="feat">
+					<h4>I am very sorry</h4>
+					<p>Display: 5 inches <br>RAM: 4GB <br> Memory: 32GB</p>
+				</div>
+				<div calss="quantity">
+					0
+				</div>
+				<div class="price">
+					<h5>$120</h5>
+				</div>
+				</div>
+
+				<!-- repeated-------------row------------- -->
+			<div class="row2 d-flex flex-sm-row d p-2">
+				<div class="img-fluid">
+					<img class="img-fluid" src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRKj8NxFZGTq2Duw3kub7bAM6b-7zsd_1oF5GkGsknP4ex-A8Dk" width="150px" alt="image loading..">
+				</div>
+				<div class="feat">
+					<h4>I am very sorry</h4>
+					<p>Display: 5 inches <br>RAM: 4GB <br> Memory: 32GB</p>
+				</div>
+				<div calss="quantity">
+					0
+				</div>
+				<div class="price">
+					<h5>$120</h5>
+				</div>
+			</div>
+				<!-- Third -------------repeated row--------------- -->
+			<div class="row3 d-flex flex-sm-row d p-2">
+				<div class="img-fluid">
+					<img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRKj8NxFZGTq2Duw3kub7bAM6b-7zsd_1oF5GkGsknP4ex-A8Dk" width="150px" alt="image loading..">
+				</div>
+				<div class="feat">
+					<h4>I am very sorry</h4>
+					<p>Display: 5 inches <br>RAM: 4GB <br> Memory: 32GB</p>
+				</div>
+				<div calss="quantity">
+					0
+				</div>
+				<div class="price">
+					<h5>$120</h5>
+				</div>
+				
+			</div>
+		</div>
+	<!-- --------------------Summary-------------------------- -->
+		<div class="summary">
+			<h2>Summary</h2>
+		</div>
+		
+	</div>
+	
+</div>
+	
     <script type="text/javascript" src="./script.js">
 </script>
 
